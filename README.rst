@@ -1,13 +1,13 @@
-Host group degeneracy in gravitational lensing time delay determination of :math:`H_0`
+Host group degeneracy in gravitational lensing time delay determination of $H_0$
 ==============================
 
 This repository hosts the programs needed to obtain some of the results showed in the paper
-**Host group degeneracy in gravitational lensing time delay determination of :math:`H_0`** by Luca Teodori and Kfir Blum.
+**Host group degeneracy in gravitational lensing time delay determination of $H_0$** by Luca Teodori and Kfir Blum.
 
 Abstract
 --------
 Massive elliptical galaxies, that serve as lenses in gravitational lensing time delay measurements of the
-Hubble parameter :math:`H_0`, often reside in a host group. We consider degeneracies in the modeling of the
+Hubble parameter $H_0$, often reside in a host group. We consider degeneracies in the modeling of the
 group halo. When the group effect on imaging can be summarized by its flexion (the next order term
 beyond shear in the tidal expansion), the posterior likelihood map can develop disjoint local minima,
 associated with an approximate discrete symmetry of a dominant flexion term. Monte-Carlo Markov
@@ -19,13 +19,15 @@ posterior landscape can uncover the structure. If the group is X-ray bright enou
 help to resolve the degeneracy, by pinpointing the group’s center of mass. Finally, we show that some
 implementations in the literature used an inaccurate kinematical prior, mis-modeling the group velocity
 dispersion by as much as 20%.
+
 Notebooks
 ---------
 For understanding on how we obtained our results,
 we prepared dedicated jupyter notebooks:
 
-* ``kappa_linear.ipynb``: Computing \kappa^s RMS just in linear theory
-* ``delta_kappa_nonlinear.ipynb``: Showing the plots regarding the RMS of external convergences and related
+* ``mock.ipynb``: code related to mock and production of corner plots
+* ``mock_zeus.ipynb``: the same as before, but with the zeus sampler
+* ``mock_setuo.ipynb``: Figures of the mock setup and the three degenerate solutions
 
 Authors
 -------
